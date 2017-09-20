@@ -8,6 +8,6 @@ class SampleMailer < ApplicationMailer
   def send_when_update
     @greeting = "Hi"
 
-    mail to: "to@example.org"
+    mail to: "arakawayukio62@gmail.com"
   end
 end
