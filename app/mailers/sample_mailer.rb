@@ -7,7 +7,8 @@ class SampleMailer < ApplicationMailer
   #
   def send_when_update
     @greeting = "Hi"
+    binding.pry
 
-    mail to: "arakawayukio62@gmail.com"
+    mail to: "test@arakawayukio.sakura.ne.jp"
   end
 end

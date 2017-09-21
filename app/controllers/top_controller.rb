@@ -3,7 +3,7 @@ class TopController < ApplicationController
   end
 
   def send_mail
-    SampleMailer.send_when_update().deliver
+    SampleMailer.send_when_update.deliver
     redirect_to action: :index
   end
 end
